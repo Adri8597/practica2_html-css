@@ -1,39 +1,45 @@
 * {text-align: center;}
 
-body{padding: 0; margin: 0}
+body{padding: 0; margin: 0;background-color: #2E49A3;}
 
 #contenedor{display: grid; 
 grid-template-rows: 15vh 10vh 8vh 30vh 4vh 10vh 8vh 15vh;
-grid-template-columns: 13fr 15fr 1fr 15fr 13fr;padding: 0; margin: 0
+grid-template-columns: 15fr 14fr 1fr 14fr 15fr;
 }
 
 #contenedor .celda1{
     grid-row: 1/2;
     grid-column: 1/6;
-    background-color: brown;
+    background-color: #D1D7E3;
     text-align: center;padding: auto;
 }
 
-.header-tittle{padding: 10px;margin-top: 27px;margin-bottom: 35px;margin-left: 60px;margin-right: 60px; border: 5px solid red;}
+.header-tittle{font-size: 51px;font-family: 'Gloria Hallelujah';margin-top: 10px;margin-bottom: 10px;margin-left: 30px;margin-right: 30px}
+
+.nav-tittle1{font-size: 25px;font-family: 'PT Serif Caption', serif;padding-right: 5px;padding-left: 5px;margin-top: 30px;margin-bottom: 10px;margin-left: 3px;margin-right: 5px}
+
+.nav-tittle2{font-size: 30px;font-family: 'PT Serif Caption', serif;margin-top: 20px;margin-bottom: 10px;margin-left: 30px;margin-right: 30px}
+
+.nav-tittle3{font-size: 25px;font-family: 'PT Serif Caption', serif;padding-right: 5px;padding-left: 5px;margin-top: 30px;margin-bottom: 10px;margin-left: 3px;margin-right: 5px}
 
 #contenedor .celda-nav1{
     grid-row: 2/3;
-    grid-column: 2/5;
-    background-color: yellow;
+    grid-column: 1/2;
+    background-color: #B4BAC7;
     text-align: center;padding: 0; margin: 0
 }
 
 #contenedor .celda-nav2{
     grid-row: 2/3;
-    grid-column: 1/2;
-    background-color: yellow;
+    grid-column: 2/5;
+    background-color: #B4BAC7;
     text-align: center;padding: 0; margin: 0
 }
 
 #contenedor .celda-nav3{
     grid-row: 2/3;
     grid-column: 5/6;
-    background-color: yellow;
+    background-color: #B4BAC7;
     text-align: center;padding: 0; margin: 0
 }
 
@@ -58,13 +64,12 @@ grid-template-columns: 13fr 15fr 1fr 15fr 13fr;padding: 0; margin: 0
 
 #contenedor .celda7{
     grid-row: 8/9;grid-column: 1/6;
-    background-color: green;
+    background-color: #8B93A5;
     text-align: center;
 
 }
 
-#final-text{}
-    
+.final-text{font-size: 30px;font-family: 'PT Serif Caption', serif}
 
 
 
